@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Big+Shoulders+Display:wght@100;300&family=Lexend+Deca:wght@200;300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #ECF2F8;
+            font-size: 13px;
+            font-family: 'Manrope', sans-serif;
+            line-height: 1.15;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1 {
+            display: block;
+            font-size: 2em;
+            margin-block-start: 0.67em;
+            margin-block-end: 0.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: bold;
+        }
+        p {
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+        .main{
+            display: flex;
+            height: 350px;
+            width: 910px;
+            border-radius: .75rem;
+            background-color: #fff;
+            overflow: hidden;
+        }
+        .card {
+            display: -ms-grid;
+            display: grid;
+            grid-template-columns: 4fr 6fr;
+            grid-template-rows: 1fr;
+            width: 100%;
+            height: 100%;
+        }
+        .card img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: 0 0;
+        }
+        .card-wrapper{
+            position: relative;
+            margin: 0 1.5rem;
+        }
+        .card-body{
+            padding: 26px 33.8px 0 33.8px;
+        }
+        .card-title{
+            font-weight: 700;
+            font-style: normal;
+            font-size: 25px;
+            line-height: 33px;
+            margin-bottom: 1.5rem;
+            color: #48556A;
+            font-family: 'Manrope', sans-serif;
+        }
+        .card-text{
+            margin-bottom: 1rem;
+            line-height: 25px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #6d7f97
+        }
+
+    </style>
+</head>
+<body>
+    <main class="main">
+        <div class="card">
+            <img src="img/drawers.jpg" alt="">
+            <div class="card-wrapper">
+                <div class="card-body">
+                    <h1 class="card-title">
+                         Shift the overall look and feel by adding these wonderful touches to furniture in your home
+                    </h1>
+                    <p class="card-text">
+                        Ever been in a room and felt like something was missing? Perhaps
+                        it felt slightly bare and uninviting. I’ve got some simple tips
+                        to help you make any room feel complete.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
