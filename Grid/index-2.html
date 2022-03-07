@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Big+Shoulders+Display:wght@100;300&family=Lexend+Deca:wght@200;300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            color: #ffff;
+        }
+        p{
+            color: rgb(240, 236, 232);
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 1.5px;
+            line-height: 22px;
+        }
+        .container{
+            display: flex;
+            background-color: #0A0C1B;
+            height:  100vh;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        .center{
+            display: flex;
+             background-color: #1C1938; 
+            height: 50vh;
+            width: 80%;
+            border-radius: 5px;
+        }
+        .center > * {
+            flex: 1;
+            /* border: #fff solid 1px; */
+            position: relative;
+            overflow: auto;
+        }
+        .card{
+            margin: 50px;
+            border: #fff;
+            height: calc(100% - 100px);
+            width:  calc(100% - 100px);
+            /* background-color: aqua; */
+        }
+        .card-header{ 
+            font-size: 30px;
+        }
+        .card-header span{
+            color: #8B4AB3;
+        }
+        .card-content{
+            margin-block: 40px ;
+        }
+        .card-footer{
+            
+        }
+        .split{
+            display: flex;
+            /* justify-content: space-between; */
+            /* bottom: 0; */
+            margin-top: 50px;
+        }
+        .split > * {
+            flex: 1;
+            
+            /* border: white 1px solid; */
+        } 
+        .split h3 {
+            font-size: 18px;
+        }
+        .split p{
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        .img-wrapper{
+            /* margin: 0px; */
+            height: 100%;
+        }
+      
+        img{
+            object-fit: cover;
+            height: calc(100%);
+            width: 100%;
+            position: 0 0 ;
+        }
+       
+    </style>
+</head>
+<body>
+   <div class="container">
+        <div class="center">
+            <div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Get <span>insights</span> that help your business grow.</h3>
+                    </div>
+                    <div class="card-content">
+                        <p> 
+                            Discover the benefits of data analytics and make better decissions regarding revenue, customer experience, and overall efficiency.
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <div class="split">
+                            <div> 
+                                <h3>10k+</h3>
+                                <p>companies</p>
+                            </div>
+                            <div>
+                                <h3>314</h3>
+                                <p>templates</p>
+                            </div>
+                            <div>
+                                <h3>12M+</h3>
+                                <p>queries</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="img-wrapper">
+                    <img src="https://www.lifewire.com/thmb/g2jva4iFBaG5vBXNpzEs8wEVYJY=/1920x1080/filters:no_upscale():max_bytes(150000):strip_icc()/passage_wallpaper_by_trenchmaker-d4pp3zd-5919d0673df78cf5fa42884c.jpg" alt="">
+                </div>
+            </div>
+        </div>
+   </div>
+</body>
+</html>
